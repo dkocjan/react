@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/dkocjan/react-boilerplate.git",
+  "author": "dkocjan",
+  "license": "MIT"
+}
