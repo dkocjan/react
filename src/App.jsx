@@ -1,7 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Home';
+// Components
+import Home from './Home/Home';
 
 const NotFoundFallback = () => <h1>404</h1>;
 
