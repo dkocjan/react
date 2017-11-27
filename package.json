@@ -11,7 +11,8 @@
     "dev": "./node_modules/.bin/webpack-dev-server --env.dev",
     "format": "./node_modules/.bin/prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 **/*.{js,jsx}",
     "lint": "./node_modules/.bin/eslint **/*.{js,jsx} --quiet",
-    "watch": "./node_modules/.bin/webpack --watch"
+    "watch": "./node_modules/.bin/webpack --watch -env.dev",
+    "start": "yarn dev"
   },
   "dependencies": {
     "react": "^16.1.1",
