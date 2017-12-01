@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="sc-bdVaJa erucoP"
+>
+  <h1
+    className="sc-bwzfXH tqLfU"
+  >
+    React Boilerplate
+  </h1>
+</div>
+`;
