@@ -1,13 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render correctly 1`] = `
-<div
-  className="sc-bdVaJa erucoP"
->
-  <h1
-    className="sc-bwzfXH tqLfU"
-  >
+exports[`Home renders correctly 1`] = `
+<styled.div>
+  <styled.h1>
     React Boilerplate
-  </h1>
-</div>
+  </styled.h1>
+</styled.div>
 `;

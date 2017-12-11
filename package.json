@@ -13,10 +13,19 @@
     "lint": "eslint **/*.{js,jsx} --quiet",
     "watch": "webpack --watch",
     "start": "yarn dev",
-    "test": "cross-env NODE_ENV=test jest"
+    "test": "cross-env NODE_ENV=test jest",
+    "test:update": "cross-env NODE_ENV=test jest -u",
+    "test:coverage": "cross-env NODE_ENV=test jest --coverage"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/jest.config.babel.js"
   },
   "dependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-router-dom": "^4.2.2",
@@ -32,6 +41,9 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "cross-env": "^5.1.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
     "eslint": "^4.12.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -43,7 +55,6 @@
     "eslint-plugin-react": "^7.5.1",
     "jest": "^21.2.1",
     "prettier": "^1.8.2",
-    "react-test-renderer": "^16.2.0",
     "webpack-config-utils": "^2.3.0",
     "webpack-dev-server": "^2.9.4"
   }
