@@ -1,8 +1,6 @@
 import React from 'react';
-import { render } from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// Components
-import Home from './Home/Home';
+import Home from '../Home/Home';
 
 const NotFoundFallback = () => <h1>404</h1>;
 
@@ -17,4 +15,4 @@ const App = () => (
   </BrowserRouter>
 );
 
-render(<App />, document.getElementById('app'));
+export default App;
