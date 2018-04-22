@@ -1,18 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-    background: lavenderblush;
-`
 const Heading = styled.h1`
-padding: 15px 0 15px 0px;
-text-align: center;
-`
+  color: blue;
+  text-align: center;
+`;
 
 const Home = () => (
-  <Wrapper>
+  <div>
     <Heading>React Boilerplate</Heading>
-  </Wrapper>
+  </div>
 );
 
 export default Home;
